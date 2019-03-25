@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Input a number and return the date that many days ago.</description>
+        <internal_name>get_days_ago_date</internal_name>
+        <label_cache>[{"name":"{{action.days_ago}}","label":"action➛Days ago","type":"action","ref":""},{"name":"{{step[df1af265-eb37-40d5-9c0e-f3a8ab1b050e].new_date}}","label":"step➛Calculate daysAgo Date➛new_date","type":"step","ref":""}]</label_cache>
+        <latest_snapshot>8ec9d613db143300b97da455ca961909</latest_snapshot>
+        <master_snapshot>d2c9d613db143300b97da455ca961997</master_snapshot>
+        <name>Get days Ago Date</name>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 09:03:27</sys_created_on>
+        <sys_id>97dd8193db503300b97da455ca9619a9</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Get days Ago Date</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_306366_needit_sp">c31b4b56db143300b97da455ca96196a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">c31b4b56db143300b97da455ca96196a</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_97dd8193db503300b97da455ca9619a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 14:35:10</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=97dd8193db503300b97da455ca9619a9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=97dd8193db503300b97da455ca9619a9"/>
+    <sys_element_mapping action="delete_multiple" query="id=97dd8193db503300b97da455ca9619a9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>parameter</field>
+        <id>97dd8193db503300b97da455ca9619a9</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 09:39:45</sys_created_on>
+        <sys_id>832655d7db503300b97da455ca961932</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 09:39:45</sys_updated_on>
+        <table>var__m_sys_hub_action_output_97dd8193db503300b97da455ca9619a9</table>
+        <value>{{step[df1af265-eb37-40d5-9c0e-f3a8ab1b050e].new_date}}</value>
+    </sys_element_mapping>
+</record_update>
